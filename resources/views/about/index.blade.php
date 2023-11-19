@@ -1,315 +1,100 @@
 @extends('layouts.main')
 @section('content')
-    <nav aria-label="breadcrumb" class="breadcrumb-nav" style="padding-left: 10px; padding-right: 10px;">
+    <section class="testimonials-two section-space">
         <div class="container">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <a href="{{ route('home') }}">
-                        <i class="icon-home text-white"></i>
-                    </a>
-                </li>
+            <div class="testimonials-two__top">
+                <div class="row gutter-y-30 align-items-center">
+                    <div class="col-lg-4">
+                        <div class="sec-title">
+                            <h6 class="sec-title__tagline @@extraClassName">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </h6>
+                            <h3 class="sec-title__title">
+                                Our Purpose
+                            </h3>
+                        </div>
+                    </div>
 
-                <li class="breadcrumb-item active text-white" aria-current="page">
-                    About Us
-                </li>
-
-                <li class="breadcrumb-item active text-white" aria-current="page">
-                    Our Company
-                </li>
-            </ol>
-        </div>
-    </nav>
-
-    <div class="container py-5">
-        <div class="row align-items-center">
-
-            <div class="col-md-5 animate__animated animate__lightSpeedInRight">
-                <img style="width: 100%; height: 600px; background-size: cotain; object-fit: cover; background-position: center;"
-                    src="{{ asset('data/template.png') }}" data-aos="fade-down" class="img1" alt="">
-            </div>
-
-            <div class="col-md-7">
-                <h3 style="color:#23425F;">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">
-                            Naing
-                        </font>
-                    </font>
-                    <span style="color:#f7931E;">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">
-                                Nadi Gon Co.,Ltd
-                            </font>
-                        </font>
-                    </span>
-                </h3>
-
-                <h4>
-                    Overseas Employment Agency
-                </h4>
-
-
-                <p style="text-align: justify; font-size: 16px; color: black;"
-                    class="animate__animated animate__lightSpeedInRight">
-                    Our company "PYI KYAW MOE COMPANY LIMITED." was established in the year 2021 for the manpower supply.
-                    PYI KYAW MOE COMPANY LIMITED is one of the registered licence companies in Republic of the Union of
-                    Myanmar and authorized by the Ministry of the National Planning & Economic Development and Ministry of
-                    Labor, Employment & Social Welfare. We specialize in the supply of manpower to overseas countries.
-                    <br><br>
-                    "PYI KYAW MOE COMPANY LIMITED." has been in this manpower recruitment services for many years and we
-                    are proud and modest to inform that we have had substantial success in the supply of labor in the
-                    different business sectors.
-
-                    <br><br>
-                    We arrange enrollment for Singapore, Malaysia and Thailand.
-                    And, we are fully accredited member of Myanmar Overseas Employment Agencies
-                    Federation (MOEAF).
-                    <br><br>
-                    "PYI KYAW MOE COMPANY LIMITED." always welcome for your manpower needs and "PYI KYAW MOE COMPANY LIMITEDs
-                    Co.,Ltd." will provide our best services as your reliable agency.
-                </p>
-                <br>
-                <a href="{{ route('contact.index') }}" class="btn btn-dark font-weight-normal">
-                    Contact Us
-                </a>
-
-                <a href="{{ route('employer.index') }}" class="btn btn-dark font-weight-normal">
-                    Employers
-                </a>
-            </div>
-
-            <div class="col-md-12 py-5">
-                <style>
-                    .table {
-                        border-collapse: collapse;
-                        border: 1px solid black;
-                        width: 100%;
-                    }
-
-                    th,
-                    tr,
-                    td {
-                        border: 1px solid black;
-                    }
-                </style>
-                <table style='border: 2px solid black' class="table animate__animated animate__lightSpeedInRight">
-                    <tbody>
-                        <tr>
-                            <td style="color:black; background-color:#E7F0E7; color: black; width: 25%;">
-                                Name of Company
-                            </td>
-
-                            <td style="color:black;">
-                                PYI KYAW MOE COMPANY LIMITED.
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black;">
-                                Nature of Business
-                            </td>
-
-                            <td style="color:black;">
-                                Services, Recruitment, Manpower supply
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black; background-color:#E7F0E7; color: black;">
-                                Nationality of Company
-                            </td>
-
-                            <td style="color:black;">
-                                Local Myanmar
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black;">
-                                Company Registration
-                            </td>
-
-                            <td style="color:black;">
-                                Directorate of Investment and Comapny Administration
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black; background-color:#E7F0E7; color: black;">
-                                Registration No.
-                            </td>
-
-                            <td style="color:black;">
-                                131414005
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black;">
-                                Licence Approval
-                            </td>
-
-                            <td style="color:black;">
-                                Ministry of Labor in Myanmar
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black; background-color:#E7F0E7; color: black;">
-                                Overseas Employment Licence No.
-                            </td>
-
-                            <td style="color:black;">
-                                169/2023
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black;">
-                                Office Location
-                            </td>
-
-                            <td style="color:black;">
-                                No. (104), Insein Road, (9) Qtr, Shwe War Myaing Apartment, Hlaing Tap, Yangon, Myanmar
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black; background-color:#E7F0E7; color: black;">
-                                Office Phone No.
-                            </td>
-
-                            <td style="color:black;">
-                                <a href="tel:09 777111339">
-                                    09 777111339, 09 770505970,
-                                    09 797779133, 01 7521292
-                                </a>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td style="color:black;">
-                                Mail Address
-                            </td>
-
-                            <td style="color:black;">
-                                <a href="mailto:info@naingnadigone.com">
-                                    info@naingnadigone.com
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <section
-        class="cmt-row bg-base-dark cmt-bg cmt-bgimage-yes bg-img1 clearfix py-5 animate__animated animate__lightSpeedInRight">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="">
-                        <h3 style="color:#468ECE;">
-                            <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">
-                                    Company Information
-                                </font>
-                            </font>
-                        </h3>
-                        <h3>
-                            <span style="color:#f7931E;">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        Company Registration Certificate
-                                    </font>
-                                </font>
-                            </span>
-                        </h3>
-
-                        <p style="text-align: justify; font-size: 15px; color: black;">
-                            Choose us for your overseas employment needs and embark on a rewarding international career
-                            journey. Our agency offers a wealth of experience and expertise, ensuring smooth transitions
-                            and successful placements. With a wide range of job options across various sectors and
-                            countries, personalized support, and a commitment to excellence, we prioritize your success
-                            and build lasting relationships with our clients. Trust us to make your overseas job
-                            aspirations a reality.
+                    <div class="col-lg-8 wow fadeInRight" data-wow-duration="1500ms">
+                        <p class="testimonials-two__text">
+                            Our main purpose is to provide different categories of
+                            Myanmar Manpower around the globe and
+                            especially
+                            Thailand. We supply Skilled, Semi-Skilled, General Worker, Technical, Professional and
+                            Unskilled Myanmar
+                            Manpower. Currently, we are dealing with various clients from different countries and
+                            successful in supply
+                            Malaysia, Japan, Thailand, Singapore without any complaints.
                         </p>
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 14px;">
-                    <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
-                        <img src="{{ asset('data/1.png') }}" alt="" data-enlargeable=""
-                            style="object-position: top; width: 100%; height: 340px; object-fit: cover; background-size: corver; border: 2px solid #555;"
-                            class="img-enlargeable">
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-12" style="padding: 14px;">
-                    <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
-                        <img src="{{ asset('data/2.png') }}" alt="" data-enlargeable=""
-                            style="object-position: top; width: 100%; height: 340px; object-fit: cover; background-size: corver; border: 2px solid #555;"
-                            class="img-enlargeable">
-                    </div>
-                </div>
-
-
             </div>
         </div>
     </section>
 
-    <section class="promo-section bg-dark" data-parallax="{'speed': 2, 'enableOnMobile': true}"
-        data-image-src="{{ asset('data/company_bg.jpg') }}">
-        <div class="promo-banner banner container text-uppercase">
-            <div class="banner-content row align-items-center text-center">
-                <div class="col-md-4 ml-xl-auto text-md-right appear-animate" data-animation-name="fadeInRightShorter"
-                    data-animation-delay="600">
-                    <h2 class="mb-md-0 text-white">
-                        Naing Nadi Gon Company Limited
-                    </h2>
-                </div>
-                <div class="col-md-4 col-xl-3 pb-4 pb-md-0 appear-animate" data-animation-name="fadeIn"
-                    data-animation-delay="300">
-                    <a href="{{ route('contact.index') }}" class="btn btn-dark btn-black ls-10">
-                        Contact Us
-                    </a>
+    <section class="inspiring-one section-space"
+        style="background-image: url({{ asset('assets/images/backgrounds/inspiring-bg-1-1.png') }});">
+        <div class="container">
+            <div class="row gutter-y-50">
+                <div class="col-xl-6">
+
+                    <div class="sec-title">
+                        <h6 class="sec-title__tagline @@extraClassName">WHO ARE WE</h6>
+                        <h3 class="sec-title__title">
+                            PYI KYAW MOE
+                            <span class="sec-title__title__inner">
+                                COMPANY LIMITED
+                            </span>
+                        </h3>
+                    </div>
+
+                    <p class="inspiring-one__text" style="text-align: justify; font-size: 16px; color: black;">
+                        Our company "PYI KYAW MOE COMPANY LIMITED." was established in the year 2023 for the manpower
+                        supply.
+                        PYI KYAW MOE COMPANY LIMITED is one of the registered licence companies in Republic of the Union of
+                        Myanmar and authorized by the Ministry of the National Planning & Economic Development and Ministry
+                        of
+                        Labor, Employment & Social Welfare. We specialize in the supply of manpower to overseas countries.
+                        <br><br>
+                        "PYI KYAW MOE COMPANY LIMITED." has been in this manpower recruitment services for many years and we
+                        are proud and modest to inform that we have had substantial success in the supply of labor in the
+                        different business sectors.
+
+                        <br><br>
+                        We arrange enrollment for Singapore, Malaysia and Thailand.
+                        And, we are fully accredited member of Myanmar Overseas Employment Agencies
+                        Federation (MOEAF).
+                        <br><br>
+                        "PYI KYAW MOE COMPANY LIMITED." always welcome for your manpower needs and "PYI KYAW MOE COMPANY
+                        LIMITEDs
+                        Co.,Ltd." will provide our best services as your reliable agency.
+                    </p>
                 </div>
 
-                <div class="col-md-4 mr-xl-auto text-md-left appear-animate" data-animation-name="fadeInLeftShorter"
-                    data-animation-delay="600">
-                    <h4 class="mb-1 mt-1 font1 coupon-sale-text p-0 d-block ls-n-10 text-transform-none">
-                        <b>
-                            Overseas Employment Agency
-                        </b>
-                    </h4>
-                    <h5 class="mb-1 coupon-sale-text text-white ls-10 p-0">
-                        <i class="ls-0 text-black">
-                            NNG
-                        </i>
-                        <b class="text-white bg-secondary ls-n-10">
-                            Licence No. 169/2023
-                        </b>
-                    </h5>
+                <div class="col-xl-6">
+                    <div class="inspiring-one__image">
+                        <div class="-one__image__inner -one__image__inner--one wow fadeInRight" data-wow-duration="1500ms"
+                            data-wow-delay="00ms">
+                            <center>
+                                <img src="{{ asset('data/company/dica.jpg') }}" alt="inspiring" style="width: 90%;">
+                            </center>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="inspiring-one__shapes">
+            <div class="inspiring-one__shape inspiring-one__shape--one"></div><!-- /.inspiring-one__shape__one -->
+            <div class="inspiring-one__shape inspiring-one__shape--two"></div><!-- /.inspiring-one__shape__one -->
+        </div>
     </section>
+
+
+
 
     <section class="feature-boxes-container py-5">
         <div class="container appear-animate" data-animation-name="fadeInUpShorter">
             <div class="row">
-                <div class="col-md-12">
-                    <center>
-                        <h3 style="color:#468ECE;">
-                            <font style="vertical-align: inherit;">
-                                <font style="vertical-align: inherit;">
-                                    Our Vision, Mission & Value
-                                </font>
-                            </font>
-                        </h3>
-                    </center>
-                </div>
 
                 <div class="col-md-4">
                     <div class="feature-box px-sm-5 feature-box-simple text-center feature-box-simple1">
@@ -387,6 +172,170 @@
         </div>
     </section>
 
+
+
+    <section class="donations-two donations-carousel  section-space">
+        <div class="donations-two__bg"
+            style="background-image: url({{ asset('assets/images/backgrounds/donation-bg-2-2.png') }});">
+        </div>
+        <div class="container">
+            <div class="sec-title">
+                <h6 class="sec-title__tagline sec-title__tagline--center">
+                    PYI KYAW MOE COMPANY LIMITED
+                </h6>
+                <h3 class="sec-title__title">Activities & <span class='sec-title__title__inner'>Photo</span></h3>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="donations-two__carousel cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-theme owl-carousel"
+                data-owl-options='{
+        "items": 3,
+        "margin": 30,
+        "smartSpeed": 700,
+        "loop":true,
+        "stagePadding": 370,
+        "autoplay": 6000,
+        "nav":true,
+        "dots":false,
+        "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+        "responsive":{
+            "0":{
+                "items": 1,
+                "stagePadding": 0,
+                "margin": 20
+            },
+            "530":{
+                "items": 1,
+                "stagePadding": 100,
+                "margin": 30
+            },
+            "768":{
+                "items": 2,
+                "stagePadding": 50,
+                "margin": 30
+            },
+            "992":{
+                "items": 2,
+                "stagePadding": 110,
+                "margin": 30
+            },
+            "1200":{
+                "items": 2,
+                "stagePadding": 200,
+                "margin": 30
+            },
+            "1400":{
+                "items": 3,
+                "stagePadding": 130,
+                "margin": 30
+            },
+            "1600":{
+                "items": 3,
+                "stagePadding": 260,
+                "margin": 30
+            },
+            "1830":{
+                "items": 3,
+                "stagePadding": 371,
+                "margin": 30
+            }
+        }
+        }'>
+                <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="donation-card @@extraClassName">
+                        <div class="donation-card__bg"
+                            style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
+                        </div>
+                        <a href="javascript::void(0)" class="donation-card__image">
+                            <img src="{{ asset('data/1.jpg') }}" alt="Pyi Kyaw Moe">
+                            <div class="donation-card__category">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="donation-card @@extraClassName">
+                        <div class="donation-card__bg"
+                            style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
+                        </div>
+                        <a href="javascript::void(0)" class="donation-card__image">
+                            <img src="{{ asset('data/2.jpg') }}" alt="Pyi Kyaw Moe">
+                            <div class="donation-card__category">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="donation-card @@extraClassName">
+                        <div class="donation-card__bg"
+                            style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
+                        </div>
+                        <a href="javascript::void(0)" class="donation-card__image">
+                            <img src="{{ asset('data/3.jpg') }}" alt="Pyi Kyaw Moe">
+                            <div class="donation-card__category">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="donation-card @@extraClassName">
+                        <div class="donation-card__bg"
+                            style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
+                        </div>
+                        <a href="javascript::void(0)" class="donation-card__image">
+                            <img src="{{ asset('data/4.jpg') }}" alt="Pyi Kyaw Moe">
+                            <div class="donation-card__category">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="donation-card @@extraClassName">
+                        <div class="donation-card__bg"
+                            style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
+                        </div>
+                        <a href="javascript::void(0)" class="donation-card__image">
+                            <img src="{{ asset('data/5.jpg') }}" alt="Pyi Kyaw Moe">
+                            <div class="donation-card__category">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <div class="donation-card @@extraClassName">
+                        <div class="donation-card__bg"
+                            style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
+                        </div>
+                        <a href="javascript::void(0)" class="donation-card__image">
+                            <img src="{{ asset('data/6.jpg') }}" alt="Pyi Kyaw Moe">
+                            <div class="donation-card__category">
+                                PYI KYAW MOE COMPANY LIMITED
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="donations-two__shapes">
+            <div class="donations-two__shape donations-two__shape--one"></div>
+            <div class="donations-two__shape donations-two__shape--two"></div>
+        </div>
+    </section>
+
+
+
     <section class="cmt-row bg-base-dark cmt-bg cmt-bgimage-yes bg-img1 clearfix py-5">
         <div class="container">
             <div class="row">
@@ -417,19 +366,6 @@
                             support to job seekers. Our commitment to excellence ensures successful placements and
                             long-term relationships with clients.
                         </p>
-                    </div>
-
-                    <h4><b>Our Purpose</b></h4>
-                    <div class="title-desc">
-                        <p style="text-align: justify; font-size: 16px; color: black; line-height: 2.5;">
-                            Our main purpose is to provide different categories of
-                            Myanmar Manpower around the globe and
-                            especially
-                            Thailand. We supply Skilled, Semi-Skilled, General Worker, Technical, Professional and
-                            Unskilled Myanmar
-                            Manpower. Currently, we are dealing with various clients from different countries and
-                            successful in supply
-                            Malaysia, Japan, Thailand, Singapore without any complaints.</p>
                     </div>
                 </div>
 

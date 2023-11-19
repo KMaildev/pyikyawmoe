@@ -39,7 +39,8 @@
     </div>
 </div>
 
-<header class="main-header sticky-header sticky-header--normal" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+<header class="main-header sticky-header sticky-header--normal"
+    style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
     <div class="container-fluid">
         <div class="main-header__inner">
             <div class="main-header__logo">
@@ -157,9 +158,11 @@
                 <div class="main-header__cart">
                 </div>
 
-                <a href="donate.html" class="cleenhearts-btn main-header__btn">
+                <a href="mailto:pyikyawmoe6@gmail.com" class="cleenhearts-btn main-header__btn">
                     <div class="cleenhearts-btn__icon-box">
-                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-donate"></span></div>
+                        <div class="cleenhearts-btn__icon-box__inner">
+                            <span class="fa fa-envelope"></span>
+                        </div>
                     </div>
                     <span class="cleenhearts-btn__text">
                         Send Mail

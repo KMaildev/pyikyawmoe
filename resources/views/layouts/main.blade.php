@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PYI KYAW MOE COMPANY LIMITED (Overseas Employment Agency) - @yield('title')</title>
 
+    <meta name="keywords" content="PYI KYAW MOE COMPANY LIMITED" />
+    <meta name="author" content="PYI KYAW MOE COMPANY LIMITED" />
+    <meta name="robots" content="PYI KYAW MOE COMPANY LIMITED" />
+    <meta name="description" content="PYI KYAW MOE COMPANY LIMITED" />
+    <link rel="shortcut icon" href="{{ asset('data/logo.png') }}" />
+
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/bootstrap/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/bootstrap-select/bootstrap-select.min.css') }}" />
@@ -50,28 +56,30 @@
 
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}"
-                        width="155" alt="" /></a>
+                <a href="{{ route('home') }}" aria-label="logo image">
+                    <img src="{{ asset('data/logo.png') }}" width="155" alt="" />
+                </a>
             </div>
-            <!-- /.logo-box -->
+
             <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@cleenhearts.com">needhelp@cleenhearts.com</a>
+                    <a href="mailto:pyikyawmoe6@gmail.com,">pyikyawmoe6@gmail.com,</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:(406)555-0120">(406) 555-0120</a>
+                    <a href="tel:09 791 468 884">
+                        09 791 468 884, 09 982 567 521
+                    </a>
                 </li>
-            </ul><!-- /.mobile-nav__contact -->
+            </ul>
+
             <div class="mobile-nav__social">
                 <a href="https://facebook.com/">
                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
@@ -89,63 +97,50 @@
                     <i class="fab fa-youtube"></i>
                     <span class="sr-only">Youtube</span>
                 </a>
-            </div><!-- /.mobile-nav__social -->
+            </div>
         </div>
-        <!-- /.mobile-nav__content -->
     </div>
-    <!-- /.mobile-nav__wrapper -->
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form role="search" method="get" class="search-popup__form" action="#">
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="cleenhearts-btn cleenhearts-btn--base">
-                    <span><i class="icon-magnifying-glass"></i></span>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
 
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-        <span class="scroll-to-top__text">back top</span>
-        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
-    </a>
 
     <aside class="sidebar-one">
-        <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
+        <div class="sidebar-one__overlay sidebar-btn__toggler"></div>
         <div class="sidebar-one__content">
             <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
             <div class="sidebar-one__logo sidebar-one__item">
-                <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}"
-                        width="155" alt="logo-dark" /></a>
-            </div><!-- /.sidebar-one__logo -->
-            <div class="sidebar-one__about sidebar-one__item">
-                <p class="sidebar-one__about__text">Wimply dummy text of the priatype industry orem Ipsum has Maecenas
-                    quis eros at ante</p>
-            </div><!-- /.sidebar-one__about -->
+                <a href="{{ route('home') }}" aria-label="logo image">
+                    <img src="{{ asset('data/logo.png') }}" width="155" alt="logo-dark" /></a>
+            </div>
+
             <div class="sidebar-one__information sidebar-one__item">
                 <h4 class="sidebar-one__title">Information</h4>
                 <ul class="sidebar-one__information__list">
                     <li>
                         <span class="sidebar-one__information__icon icon-location"></span>
                         <address class="sidebar-one__information__address">
-                            <p class="sidebar-one__information__text">85 Ketch Harbour RoadBensalem, PA 19020</p>
+                            <p class="sidebar-one__information__text">
+                                No.5/11, Room G-1 Byine Yae Owe Sin Street, Ywar Ma Quarter, Tamwe Township, Yangon,
+                                Myanmar
+                            </p>
                         </address>
                     </li>
                     <li>
                         <i class="sidebar-one__information__icon icon-envelope"></i>
-                        <p class="sidebar-one__information__text"><a
-                                href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                        <p class="sidebar-one__information__text">
+                            <a href="mailto:pyikyawmoe6@gmail.com,">
+                                pyikyawmoe6@gmail.com,
+                            </a>
+                        </p>
                     </li>
                     <li>
                         <span class="sidebar-one__information__icon icon-phone"></span>
-                        <p class="sidebar-one__information__text"><a href="tel:(406)555-0120">(406) 555-0120</a></p>
+                        <p class="sidebar-one__information__text">
+                            <a href="tel:09 791 468 884">
+                                09 791 468 884, 09 982 567 521
+                            </a>
+                        </p>
                     </li>
                 </ul>
-            </div><!-- /.sidebar-one__information -->
+            </div>
             <div class="sidebar-one__socila social-link sidebar-one__item">
                 <a href="https://facebook.com/">
                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
@@ -163,20 +158,10 @@
                     <i class="fab fa-youtube"></i>
                     <span class="sr-only">Youtube</span>
                 </a>
-            </div><!-- /sidebar-one__socila -->
-            <div class="sidebar-one__newsletter sidebar-one__item">
-                <label class="sidebar-one__title" for="sidebar-email">Newsletter Subscribe</label>
-                <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
-                    <input type="email" name="sidebar-email" id="sidebar-email"
-                        class="sidebar-one__newsletter__input" placeholder="Email Address">
-                    <button type="submit" class="sidebar-one__newsletter__btn"><i class="fa fa-paper-plane"
-                            aria-hidden="true"></i></button>
-                </form>
-                <div class="mc-form__response"></div><!-- /.mc-form__response -->
-            </div><!-- /.sidebar-one__form -->
-        </div><!-- /.sidebar__content -->
+            </div>
+
+        </div>
     </aside>
-    <!-- /.sidebar-one -->
 
     <script src="{{ asset('assets/vendors/jquery/jquery-3.7.0.min.js') }}"></script>
     <script src="{{ asset('assets/vendors/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
