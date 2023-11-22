@@ -298,7 +298,7 @@
                         <br><br>
 
                         <h4 class="animate__animated animate__bounce animate__rotateInDownLeft">
-                            PYI KYAW MOE COMPANY LIMITED
+                            Nay Min Thar Co.,Ltd
                         </h4>
 
                         <p style="font-size: 15px; color: black; text-align: justify" class="appear-animate"
@@ -325,7 +325,7 @@
 
                         <p style="font-size: 15px; color: black; text-align: justify" class="appear-animate"
                             data-animation-delay="100" data-animation-name="fadeInUpShorter">
-                            PYI KYAW MOE COMPANY LIMITED’s operations are managed by a team of professionals.
+                            Nay Min Thar Co.,Ltd’s operations are managed by a team of professionals.
                         </p>
 
 

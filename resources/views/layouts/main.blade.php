@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PYI KYAW MOE COMPANY LIMITED (Overseas Employment Agency) - @yield('title')</title>
+    <title>Nay Min Thar Co.,Ltd (Overseas Employment Agency) - @yield('title')</title>
 
-    <meta name="keywords" content="PYI KYAW MOE COMPANY LIMITED" />
-    <meta name="author" content="PYI KYAW MOE COMPANY LIMITED" />
-    <meta name="robots" content="PYI KYAW MOE COMPANY LIMITED" />
-    <meta name="description" content="PYI KYAW MOE COMPANY LIMITED" />
+    <meta name="keywords" content="Nay Min Thar Co.,Ltd" />
+    <meta name="author" content="Nay Min Thar Co.,Ltd" />
+    <meta name="robots" content="Nay Min Thar Co.,Ltd" />
+    <meta name="description" content="Nay Min Thar Co.,Ltd" />
     <link rel="shortcut icon" href="{{ asset('data/logo.png') }}" />
 
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />
@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/css/owl.carousel.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/css/owl.theme.default.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/cleenhearts.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <style>
     .section-space {
@@ -43,7 +44,6 @@
     <div class="page-wrapper">
 
         @include('layouts.menu')
-
 
 
         @yield('content')

@@ -44,7 +44,7 @@
                                         style="width: 100%; height: 260px; background-size: center; object-fit: cover;"
                                         class="img-enlargeable">
                                     <div class="blog-card__date">
-                                        PKM
+                                        NMT
                                     </div>
                                 </a>
                                 <div class="blog-card__content"

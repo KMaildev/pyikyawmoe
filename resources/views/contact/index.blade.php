@@ -3,27 +3,49 @@
 @section('content')
     <section class="contact-one section-space @@extraClassName">
         <div class="container">
-
             <div class="sec-title">
-
                 <center>
-                    <h3 class="sec-title__title">
-                        Send Us a
-                        <span class="sec-title__title__inner">
-                            Message
-                        </span>
-                    </h3>
+
+                    @if (session('key') == 'jp')
+                        <h3 class="sec-title__title">
+                            <span class="sec-title__title__inner">
+                                私達にメッセージを送ります
+                            </span>
+                        </h3>
+                    @else
+                        <h3 class="sec-title__title">
+                            Send Us a
+                            <span class="sec-title__title__inner">
+                                Message
+                            </span>
+                        </h3>
+                    @endif
                 </center>
                 <br>
-                <p>
-                    If you have any questions about our services or would like more information about our overseas
-                    employment agency, please do not hesitate to get in touch. We are available by phone, email, or through
-                    our contact form on our website. Our friendly team of experts are always happy to answer any questions
-                    or queries you may have.
-                </p>
-                <br>
+                @if (session('key') == 'jp')
+                    <p>
+                        当社のサービスについてご質問がある場合、または当社の海外に関する詳細情報が必要な場合は、
+                        人材派遣会社様、お気軽にご相談ください。電話、メール、または、
+                        を通して
+                        弊社ウェブサイトのお問い合わせフォーム。当社のフレンドリーな専門家チームがいつでも喜んでお答えします。
+                        質問
+                        または質問があるかもしれません。
+                    </p>
+                @else
+                    <p>
+                        If you have any questions about our services or would like more information about our overseas
+                        employment agency, please do not hesitate to get in touch. We are available by phone, email, or
+                        through
+                        our contact form on our website. Our friendly team of experts are always happy to answer any
+                        questions
+                        or queries you may have.
+                    </p>
+                @endif
             </div>
 
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                @include('components.whatsapp')
+            </div>
 
             <div class="row gutter-y-30">
                 <div class="col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">

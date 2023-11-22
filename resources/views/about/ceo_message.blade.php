@@ -35,7 +35,7 @@
                                     CEO’s MESSAGE
                                 </h3>
                                 <p class="volunteer-details__designation">
-                                    PYI KYAW MOE COMPANY LIMITED
+                                    Nay Min Thar Co.,Ltd
                                 </p>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                     CEO’s MESSAGE
                                 </h3>
                                 <p class="volunteer-details__designation">
-                                    PYI KYAW MOE COMPANY LIMITED
+                                    Nay Min Thar Co.,Ltd
                                 </p>
                             </div>
                         </div>

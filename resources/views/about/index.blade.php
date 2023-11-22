@@ -7,7 +7,7 @@
                     <div class="col-lg-4">
                         <div class="sec-title">
                             <h6 class="sec-title__tagline @@extraClassName">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </h6>
                             <h3 class="sec-title__title">
                                 Our Purpose
@@ -41,7 +41,7 @@
                     <div class="sec-title">
                         <h6 class="sec-title__tagline @@extraClassName">WHO ARE WE</h6>
                         <h3 class="sec-title__title">
-                            PYI KYAW MOE
+                            Nay Min Thar Co.,Ltd
                             <span class="sec-title__title__inner">
                                 COMPANY LIMITED
                             </span>
@@ -49,14 +49,14 @@
                     </div>
 
                     <p class="inspiring-one__text" style="text-align: justify; font-size: 16px; color: black;">
-                        Our company "PYI KYAW MOE COMPANY LIMITED." was established in the year 2023 for the manpower
+                        Our company "Nay Min Thar Co.,Ltd." was established in the year 2023 for the manpower
                         supply.
-                        PYI KYAW MOE COMPANY LIMITED is one of the registered licence companies in Republic of the Union of
+                        Nay Min Thar Co.,Ltd is one of the registered licence companies in Republic of the Union of
                         Myanmar and authorized by the Ministry of the National Planning & Economic Development and Ministry
                         of
                         Labor, Employment & Social Welfare. We specialize in the supply of manpower to overseas countries.
                         <br><br>
-                        "PYI KYAW MOE COMPANY LIMITED." has been in this manpower recruitment services for many years and we
+                        "Nay Min Thar Co.,Ltd." has been in this manpower recruitment services for many years and we
                         are proud and modest to inform that we have had substantial success in the supply of labor in the
                         different business sectors.
 
@@ -65,7 +65,7 @@
                         And, we are fully accredited member of Myanmar Overseas Employment Agencies
                         Federation (MOEAF).
                         <br><br>
-                        "PYI KYAW MOE COMPANY LIMITED." always welcome for your manpower needs and "PYI KYAW MOE COMPANY
+                        "Nay Min Thar Co.,Ltd." always welcome for your manpower needs and "Nay Min Thar Co.,Ltd COMPANY
                         LIMITEDs
                         Co.,Ltd." will provide our best services as your reliable agency.
                     </p>
@@ -181,7 +181,7 @@
         <div class="container">
             <div class="sec-title">
                 <h6 class="sec-title__tagline sec-title__tagline--center">
-                    PYI KYAW MOE COMPANY LIMITED
+                    Nay Min Thar Co.,Ltd
                 </h6>
                 <h3 class="sec-title__title">Activities & <span class='sec-title__title__inner'>Photo</span></h3>
             </div>
@@ -247,9 +247,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/1.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/1.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -261,9 +261,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/2.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -275,9 +275,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/3.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/3.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -289,9 +289,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/4.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/4.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -303,9 +303,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/5.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/5.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -318,9 +318,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/6.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/6.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>

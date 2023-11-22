@@ -159,9 +159,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/1/1.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/1/1.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -173,9 +173,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/1/2.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/1/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -187,9 +187,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/1/3.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/1/3.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -201,9 +201,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/111.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/photo/111.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -215,9 +215,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/222.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/photo/222.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -230,9 +230,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/333.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/photo/333.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -244,9 +244,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/99.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/photo/99.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -258,9 +258,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/10.jpg') }}" alt="Pyi Kyaw Moe">
+                            <img src="{{ asset('data/company/photo/10.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
-                                PYI KYAW MOE COMPANY LIMITED
+                                Nay Min Thar Co.,Ltd
                             </div>
                         </a>
                     </div>

@@ -9,7 +9,7 @@
                             <img src="{{ asset('data/logo.png') }}" width="159" alt="Cleenhearts HTML Template">
                         </a>
                         <p class="footer-widget__about-text">
-                            PYI KYAW MOE CO.,LTD
+                            Nay Min Thar Co.,Ltd
                             <br>
                             Overseas Employment Agency
                         </p>
@@ -160,7 +160,7 @@
         <div class="container">
             <div class="main-footer__bottom__inner">
                 <p class="main-footer__copyright">
-                    &copy; Copyright <span class="dynamic-year"></span> PYI KYAW MOE COMPANY LIMITED. All Rights Reserved.
+                    &copy; Copyright <span class="dynamic-year"></span> Nay Min Thar Co.,Ltd. All Rights Reserved.
                 </p>
             </div>
         </div>

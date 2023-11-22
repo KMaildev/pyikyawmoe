@@ -29,7 +29,7 @@
                         </h5>
                         <h2 class="main-slider-one__title">
                             <span class="main-slider-one__title__text">
-                                PYI KYAW MOE CO.,LTD
+                                Nay Min Thar Co.,Ltd
                             </span>
                         </h2>
                     </div>
@@ -51,7 +51,7 @@
                         </h5>
                         <h2 class="main-slider-one__title">
                             <span class="main-slider-one__title__text">
-                                PYI KYAW MOE CO.,LTD
+                                Nay Min Thar Co.,Ltd
                             </span>
                         </h2>
                     </div>
@@ -73,7 +73,7 @@
                         </h5>
                         <h2 class="main-slider-one__title">
                             <span class="main-slider-one__title__text">
-                                PYI KYAW MOE CO.,LTD
+                                Nay Min Thar Co.,Ltd
                             </span>
                         </h2>
                     </div>
@@ -94,7 +94,7 @@
                         </h5>
                         <h2 class="main-slider-one__title">
                             <span class="main-slider-one__title__text">
-                                PYI KYAW MOE CO.,LTD
+                                Nay Min Thar Co.,Ltd
                             </span>
                         </h2>
                     </div>
@@ -116,7 +116,7 @@
                         </h5>
                         <h2 class="main-slider-one__title">
                             <span class="main-slider-one__title__text">
-                                PYI KYAW MOE CO.,LTD
+                                Nay Min Thar Co.,Ltd
                             </span>
                         </h2>
                     </div>

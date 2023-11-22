@@ -1169,7 +1169,7 @@ textarea {
 
 /* social links */
 .social-link {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 20px 32px;
 }
@@ -4756,9 +4756,9 @@ textarea {
   padding-bottom: 0;
 }
 .topbar-two .topbar-one__inner {
-  padding-top: 31px;
+  /* padding-top: 31px;
   padding-bottom: 30px;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .topbar-two .topbar-one__info__item {
   color: var(--cleenhearts-base, #351C42);
