@@ -4,7 +4,6 @@
     <section class="product-page section-space-bottom">
         <div class="container">
             <div class="row gutter-y-40 justify-content-center">
-
                 <div class="col-md-12">
                     <div class="sec-title">
                         <h6 class="sec-title__tagline sec-title__tagline--center">
