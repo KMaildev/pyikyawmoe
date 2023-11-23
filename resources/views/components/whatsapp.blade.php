@@ -17,8 +17,8 @@
 </style>
 
 <div class="btn-box">
-    <a class="btn btn-call" href="tel:+95 9777111339" style="font-size: 45px;">
+    <a class="btn btn-call" href="tel:+959-967 576 591" style="font-size: 45px;">
         <i class="fa-brands fa-whatsapp"></i>
-        Whatsapp us +95 9777111339
+        Whatsapp us +959-967 576 591
     </a>
 </div>

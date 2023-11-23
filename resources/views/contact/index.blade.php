@@ -48,12 +48,13 @@
             </div>
 
             <div class="row gutter-y-30">
+
                 <div class="col-lg-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                     <div class="contact-one__map">
 
                         <div class="google-map contact-one__google__map">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.9489233656636!2d96.1849222744523!3d16.779216584007944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ecfbc9197ea7%3A0xb23bfac07abaa4ad!2sYwar%20Ma%20St%2C%20Yangon!5e0!3m2!1sen!2smm!4v1700291506885!5m2!1sen!2smm"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122150.13345774164!2d96.03058708804751!3d16.91583498429756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c191619a23cd65%3A0xe0ec4d6f36651bf4!2sNorth%20Okkalapa%20Township%2C%20Yangon!5e0!3m2!1sen!2smm!4v1700756263312!5m2!1sen!2smm"
                                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
@@ -66,8 +67,8 @@
                                 <div class="contact-one__info__content">
                                     <h4 class="contact-one__info__title">Mailing Address</h4>
                                     <address class="contact-one__info__text">
-                                        No.5/11, Room G-1 Byine Yae Owe Sin Street, Ywar Ma Quarter, Tamwe Township, Yangon,
-                                        Myanmar
+                                        No. 179/B, Sein Ya Ti Street, Yadanar Kyun Ave, North Okkalapa Township, Yangon
+                                        Region, Myanmar, Postal Code: 11031
                                     </address>
                                 </div>
                             </div>
@@ -78,9 +79,9 @@
                                 </div>
                                 <div class="contact-one__info__content">
                                     <h4 class="contact-one__info__title">Quick Contact</h4>
-                                    <a href="tel:09 791 468 884"
+                                    <a href="tel:+959-967 576 591,"
                                         class="contact-one__info__text contact-one__info__text--link">
-                                        09 791 468 884, 09 982 567 521
+                                        +959-967 576 591
                                     </a>
                                 </div>
                             </div>
@@ -92,9 +93,9 @@
 
                                 <div class="contact-one__info__content">
                                     <h4 class="contact-one__info__title">support email</h4>
-                                    <a href="mailto:pyikyawmoe6@gmail.com"
+                                    <a href="mailto:info@naymintharmyanmar.com"
                                         class="contact-one__info__text contact-one__info__text--link">
-                                        pyikyawmoe6@gmail.com, info@pyikyawmoe.com
+                                        info@naymintharmyanmar.com, naymintharem@gmail.com
                                     </a>
                                 </div>
                             </div>
@@ -149,8 +150,8 @@
                                     <div class="form-one__control">
                                         <textarea name="message" id="message" cols="30" rows="10" placeholder="write message . . ."
                                             class="form-one__control__input form-one__control__message"></textarea>
-                                    </div><!-- /.form-one__control -->
-                                </div><!-- /.col-12 -->
+                                    </div>
+                                </div>
                                 <div class="col-12">
                                     <div class="contact-one__btn-box form-one__control">
                                         <button type="submit" class="cleenhearts-btn @@extraClassNameBtn">
@@ -160,15 +161,15 @@
                                             </span>
                                             <span class="cleenhearts-btn__text">send message</span>
                                         </button>
-                                    </div><!-- /.form-one__control -->
-                                </div><!-- /.col-12 -->
-                            </div><!-- /.row -->
-                        </form><!-- /.contact-one__form__inner -->
-                    </div><!-- /.contact-one__form -->
-                </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.contact-one -->
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 @endsection
 @section('script')

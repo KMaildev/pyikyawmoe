@@ -89,8 +89,6 @@
 
 
 
-
-
 <header class="main-header-two main-header sticky-header sticky-header--two sticky-header--normal">
     <div class="main-header-two__bg"
         style="background-image: url({{ asset('assets/images/backgrounds/header-bg.png') }});"></div>
@@ -144,7 +142,7 @@
                                                         </div>
                                                         <div class="demo-one__content">
                                                             <h3 class="demo-one__title">
-                                                                <a href="#">
+                                                                <a href="{{ route('about.index') }}">
                                                                     @if (session('key') == 'jp')
                                                                         会社の強み
                                                                     @else
@@ -164,7 +162,7 @@
                                                         </div>
                                                         <div class="demo-one__content">
                                                             <h3 class="demo-one__title">
-                                                                <a href="#">
+                                                                <a href="{{ route('ceo_message') }}">
                                                                     @if (session('key') == 'jp')
                                                                         MD'S Message
                                                                     @else
@@ -224,8 +222,8 @@
                         </ul>
                     </li>
 
-                    <li class="{{ Route::is('home') ? 'active' : '' }}">
-                        <a href="{{ route('home') }}" style="font-size: 15px;">
+                    <li class="{{ Route::is('school.index') ? 'active' : '' }}">
+                        <a href="{{ route('school.index') }}" style="font-size: 15px;">
                             @if (session('key') == 'jp')
                                 YA HCU KHAM
                             @else
@@ -244,29 +242,31 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="{{ route('specified_skilled.index') }}">
                                     @if (session('key') == 'jp')
-                                        技能実習生
+                                        特定技能外国人
                                     @else
-                                        Special Skilled
+                                        Specified Skilled Worker
                                     @endif
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" style="font-size: 15px;">
+                                <a href="{{ route('technical_intern.index') }}" style="font-size: 15px;">
                                     @if (session('key') == 'jp')
                                         技能実習生
                                     @else
-                                        Technical Trainee
+                                        Technical Intern Training
                                     @endif
                                 </a>
                             </li>
                         </ul>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#" style="font-size: 15px;">
+
+
+                    <li class="dropdown megamenu">
+                        <a href="index.html">
                             @if (session('key') == 'jp')
                                 人材サービス
                             @else
@@ -274,15 +274,38 @@
                             @endif
                         </a>
                         <ul>
-                            @foreach ($countries as $country)
-                                <li>
-                                    <a href="{{ route('job.show', $country->id) }}">
-                                        {{ $country->country ?? '' }}
-                                    </a>
-                                </li>
-                            @endforeach
+                            <li>
+                                <section class="home-showcase">
+                                    <div class="container">
+                                        <div class="home-showcase__inner">
+                                            <div class="row">
+                                                @foreach ($countries as $country)
+                                                    <div class="col-md-3 col-lg-3">
+                                                        <div class="demo-one__card"
+                                                            style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                                                            <div class="demo-one__image">
+                                                                <img src="{{ $country->photo ?? '' }}" alt=""
+                                                                    style="height: 140px; width: 100%;">
+                                                            </div>
+                                                            <div class="demo-one__content">
+                                                                <h3 class="demo-one__title">
+                                                                    <a href="{{ route('job.show', $country->id) }}">
+                                                                        {{ $country->country ?? '' }}
+                                                                    </a>
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                @endforeach
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </li>
                         </ul>
                     </li>
+
+
 
                     <li class="dropdown">
                         <a href="#" style="font-size: 15px;">

@@ -17,7 +17,7 @@
 
             <div class="item">
                 <div class="main-slider-one__item">
-                    <div class="main-slider-one__bg" style="background-image: url({{ asset('data/slider/2.jpg') }});">
+                    <div class="main-slider-one__bg" style="background-image: url({{ asset('data/slider/5.jpg') }});">
                     </div>
                     <div class="main-slider-one__shape-one"
                         style="background-image: url(assets/images/shapes/slider-1-shape-1.png);"></div>

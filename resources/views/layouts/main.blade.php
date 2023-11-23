@@ -29,10 +29,23 @@
     <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/css/owl.theme.default.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/cleenhearts.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+
+    {{-- Unity  --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/themes/mu/css/slider.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/themes/mu/css/zoomslider.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/themes/mu/css/style.css') }}">
+
 </head>
 <style>
     .section-space {
         padding-top: 70px;
+    }
+
+    .page-header {
+        height: 450px;
     }
 </style>
 
@@ -186,6 +199,15 @@
     <script src="{{ asset('assets/vendors/jquery-lettering/jquery.lettering.min.js') }}"></script>
     <!-- template js -->
     <script src="{{ asset('assets/js/cleenhearts.js') }}"></script>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://www.myanmarunity.jp/wp-content/themes/mu/js/modernizr-2.6.2.min.js"></script>
+    <script src="https://www.myanmarunity.jp/wp-content/themes/mu/js/jquery.zoomslider.min.js"></script>
+    <script src="https://www.myanmarunity.jp/wp-content/themes/mu/js/slider.js"></script>
+
+
 
     <script type="text/javascript" src="{{ url('vendor/jsvalidation/js/jsvalidation.js') }}"></script>
     @yield('script')
