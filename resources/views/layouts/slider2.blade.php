@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="{{ asset('assets/themes/mu/css/top_new.css') }}">
+
 <section class="slider_area">
     <div id="zoom-1"
         data-zs-src='["{{ asset('data/slider/0.jpg') }}", "{{ asset('data/slider/1.jpg') }}","{{ asset('data/slider/2.jpg') }}", "{{ asset('data/slider/3.jpg') }}", "{{ asset('data/photo/Interview_Session/12.jpg') }}"]'

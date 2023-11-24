@@ -653,10 +653,8 @@
 
     <section class="aboutus_area">
         <div class="number_area">
-
             <br>
-
-            {{-- Sending  --}}
+            {{-- Sending Technical training  --}}
             <div class="send_no" id="wrapper">
                 <div class="send_no_l">
                     {{-- Sending  --}}
@@ -675,10 +673,8 @@
                         {{ $technical_intern_trainings->sum('total_sending') }}
                     </p>
                     <div class="no_pic">
-                        <img class=" ls-is-cached lazyloaded"
-                            src="https://www.myanmarunity.jp/wp-content/uploads/2020/02/send_no_pic.png"
-                            data-src="https://www.myanmarunity.jp/wp-content/uploads/2020/02/send_no_pic.png"
-                            alt="send_no_pic"><br>
+                        <img class=" ls-is-cached lazyloaded" src="{{ asset('data/w1.png') }}"
+                            data-src="{{ asset('data/w1.png') }}" alt="send_no_pic"><br>
                     </div>
                 </div>
 
@@ -722,7 +718,7 @@
 
 
 
-            {{-- Waiting  --}}
+            {{-- Waiting Technical training  --}}
             <div class="send_no" id="wrapper">
                 <div class="send_no_l">
                     <p class="no_tit">
@@ -742,10 +738,8 @@
                         {{ $technical_intern_trainings->sum('total_waiting') }}
                     </p>
                     <div class="no_pic">
-                        <img class=" ls-is-cached lazyloaded"
-                            src="https://www.myanmarunity.jp/wp-content/uploads/2020/02/send_no_pic.png"
-                            data-src="https://www.myanmarunity.jp/wp-content/uploads/2020/02/send_no_pic.png"
-                            alt="send_no_pic"><br>
+                        <img class=" ls-is-cached lazyloaded" src="{{ asset('data/w1.png') }}"
+                            data-src="{{ asset('data/w1.png') }}" alt="send_no_pic"><br>
                     </div>
                 </div>
 
@@ -787,6 +781,442 @@
                 </div>
             </div>
 
+
+
+            {{-- Results by job type < Specific skills> --}}
+            <div class="send_no" id="wrapper">
+                <div class="send_no_l">
+                    {{-- Sending  --}}
+                    <p class="no_tit">
+                        @if (session('key') == 'jp')
+                            日本企業への総送り出し人数
+                            <span class="visa_type">
+                                ＜ 特定技能 ＞
+                            </span>
+                        @else
+                            Total number of people sent to Japanese companies
+                            <span class="visa_type">
+                                < Specific skills>
+                            </span>
+                        @endif
+                    </p>
+                    <p class="number">
+                        {{ $specific_skills->sum('total_sending') }}
+                    </p>
+                    <div class="no_pic">
+                        <img class=" ls-is-cached lazyloaded" src="{{ asset('data/w1.png') }}"
+                            data-src="{{ asset('data/w1.png') }}" alt="send_no_pic"><br>
+                    </div>
+                </div>
+
+
+
+                <div class="send_no_r">
+                    <p>
+                        @if (session('key') == 'jp')
+                            職種別実績 ＜ 特定技能 ＞
+                        @else
+                            Results by job type < Specific skills>
+                        @endif
+                    </p>
+                    <div class="send_no_job">
+                        @foreach ($specific_skills as $specific_skill)
+                            <div>
+                                <p class="job_tit">
+                                    <a href="{{ route('technical_intern.index') }}" style="font-size: 15px;">
+                                        @if (session('key') == 'jp')
+                                            {{ $specific_skill->title_jp ?? '' }}
+                                        @else
+                                            {{ $specific_skill->title_en ?? '' }}
+                                        @endif
+                                    </a>
+                                </p>
+                                <p class="number">
+                                    {{ $specific_skill->total_sending ?? '' }}
+                                    <span>
+                                        @if (session('key') == 'jp')
+                                            名
+                                        @else
+                                            Total
+                                        @endif
+                                    </span>
+                                </p>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+
+
+            {{-- Results by job Waiting < Specific skills> --}}
+            <div class="send_no" id="wrapper">
+                <div class="send_no_l">
+                    {{-- Wait  --}}
+                    <p class="no_tit">
+                        @if (session('key') == 'jp')
+                            入国待ち内定者数
+                            <span class="visa_type">
+                                ＜ 特定技能 ＞
+                            </span>
+                        @else
+                            Number of people waiting to enter the country
+                            <span class="visa_type">
+                                < Specific skills>
+                            </span>
+                        @endif
+                    </p>
+                    <p class="number">
+                        {{ $specific_skills->sum('total_waiting') }}
+                    </p>
+                    <div class="no_pic">
+                        <img class=" ls-is-cached lazyloaded" src="{{ asset('data/w1.png') }}"
+                            data-src="{{ asset('data/w1.png') }}" alt="send_no_pic"><br>
+                    </div>
+                </div>
+
+
+
+                <div class="send_no_r">
+                    <p>
+                        @if (session('key') == 'jp')
+                            職種別入国待ち内定者数 ＜ 特定技能 ＞
+                        @else
+                            Number of people waiting to enter Japan by job type < Specified skills>
+                        @endif
+                    </p>
+                    <div class="send_no_job">
+                        @foreach ($specific_skills as $wait)
+                            <div>
+                                <p class="job_tit">
+                                    <a href="{{ route('technical_intern.index') }}" style="font-size: 15px;">
+                                        @if (session('key') == 'jp')
+                                            {{ $wait->title_jp ?? '' }}
+                                        @else
+                                            {{ $wait->title_en ?? '' }}
+                                        @endif
+                                    </a>
+                                </p>
+                                <p class="number">
+                                    {{ $wait->total_sending ?? '' }}
+                                    <span>
+                                        @if (session('key') == 'jp')
+                                            名
+                                        @else
+                                            Total
+                                        @endif
+                                    </span>
+                                </p>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+    <section class="reason">
+        <div class="bf_cc_box">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+
+                        @if (session('key') == 'jp')
+                            人材サービス
+                            <div class="bf_cc_item l_item">
+                                <p class="bf_cc_tit">各種能力テスト</p>
+                                <p class="bf_cc_txt">
+                                    株式会社ネミンタールでは、事前研修としてキャッテルCFIT知能検査、クレペリン検査、四則演算、シール貼り検査を実施しています。この能力検査では、言語だけでなく、計算能力や集中力、手先の器用さなどの知能のレベルを数値で見ることができます。選考の参考資料として受け入れ企業に提示します。
+                                </p>
+                                <div class="test_box">
+                                    <div>
+                                        <p class="test_tit">キャッテルCFIT知能検査</p>
+                                        <p class="test_txt">
+                                            キャッテルCFIT知能検査は、言語・生活環境・学習環境による影響をほとんど受けず、その人の純粋知能を測定するための検査です。この検査は、将来的な成長などの潜在能力診断において、高い信頼性･妥当性を持つ知能検査として評価されており、世界で進路指導や企業の作用試験などで利用されています。
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="test_tit">クレペリン検査</p>
+                                        <p class="test_txt">1桁の数字の足し算を繰り返し行い、処理速度と正確性によって、その人の性格や行動力などの特性を見ることができます。</p>
+                                    </div>
+                                    <div>
+                                        <p class="test_tit">四則演算</p>
+                                        <p class="test_txt">足し算、引き算、掛け算、割り算、かっこの付いた計算を行い、基礎的な計算能力を測定します。</p>
+                                    </div>
+                                    <div>
+                                        <p class="test_tit">シール貼り検査</p>
+                                        <p class="test_txt">大小それぞれのシールを制限時間内にどれだけ綺麗に枠内に貼れるかを検査し、集中力や手先の器用さを測定します。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        @else
+                            <div class="bf_cc_item l_item">
+                                <p class="bf_cc_tit">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Various ability tests</font>
+                                    </font>
+                                </p>
+                                <p class="bf_cc_txt">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">At Nay Min Thar Co.,Ltd, we conduct the
+                                            Cattell CFIT
+                                            intelligence test, Kraepelin test, four arithmetic operations, and sticker
+                                            pasting test as part of our preliminary training. </font>
+                                        <font style="vertical-align: inherit;">With these ability tests, you can see
+                                            numerically the level of intelligence, not just language, such as calculation
+                                            ability, concentration, and manual dexterity. </font>
+                                        <font style="vertical-align: inherit;">We present this to accepting companies as
+                                            reference data in the selection process.</font>
+                                    </font>
+                                </p>
+                                <div class="test_box">
+                                    <div>
+                                        <p class="test_tit">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Cattell CFIT Intelligence Test
+                                                </font>
+                                            </font>
+                                        </p>
+                                        <p class="test_txt">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">The Cattell CFIT Intelligence Test
+                                                    is
+                                                    a test that measures a person's pure intelligence, which is largely
+                                                    unaffected by language, living environment, and learning environment.
+                                                </font>
+                                                <font style="vertical-align: inherit;">This test has been evaluated as a
+                                                    highly reliable and valid intelligence test for diagnosing potential
+                                                    abilities such as future growth, and is used for career guidance and
+                                                    corporate performance tests around the world.</font>
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="test_tit">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Kraepelin test</font>
+                                            </font>
+                                        </p>
+                                        <p class="test_txt">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">By repeatedly adding single-digit
+                                                    numbers, it is possible to see characteristics such as a person's
+                                                    personality and behavioral abilities based on the processing speed and
+                                                    accuracy.</font>
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="test_tit">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Four arithmetic operations</font>
+                                            </font>
+                                        </p>
+                                        <p class="test_txt">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Addition, subtraction,
+                                                    multiplication, division, and calculations with parentheses are
+                                                    performed to measure basic numeracy skills.</font>
+                                            </font>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="test_tit">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Seal pasting inspection</font>
+                                            </font>
+                                        </p>
+                                        <p class="test_txt">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">Students will be tested to see how
+                                                    neatly they can place stickers of different sizes within the frame
+                                                    within the time limit, and their concentration and manual dexterity will
+                                                    be measured.</font>
+                                            </font>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="om_area">
+        <div class="hiromiarea">
+            <h2>
+                <span>
+                    @if (session('key') == 'jp')
+                        <h6 class="sec-title__tagline sec-title__tagline--center">
+                            ギャラリーとアクティビティ
+                        </h6>
+                        <h3 class="sec-title__title">
+                            フォトギャラリーをチェックしてください
+                        </h3>
+                    @else
+                        Gallery & Activities
+                    @endif
+                </span>
+                <br>
+
+                <center>
+                    <h3 class="sec-title__title">
+                        @if (session('key') == 'jp')
+                            フォトギャラリーをご覧ください
+                        @else
+                            Checkout our photo gallery
+                        @endif
+                    </h3>
+                </center>
+
+            </h2>
+
+            <div class="flex-parent" id="wrapper">
+
+                @foreach ($categories as $category)
+                    <div class="flex-child-5 news-box">
+                        <a href="{{ route('activities.show', $category->id) }}">
+                            <div class="news-thumb">
+                                <img class=" lazyloaded" src="{{ $category->photo ?? '' }}"
+                                    data-src="{{ $category->photo ?? '' }}" alt="">
+                            </div>
+                            <div class="news-date">
+                                <span class="fs09">
+                                    Nay Min Thar Empire Co.,Ltd
+                                </span>
+                            </div>
+                            <p class="news-text">
+                                {{ $category->title ?? '' }}
+                            </p>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="help-donate-one section-space-top">
+        <div class="help-donate-one__bg cleenhearts-jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% -100%"
+            style="background-image: url({{ asset('data/school.jpg') }});"></div>
+        <div class="help-donate-one__shape-one"
+            style="background-image: url({{ asset('assets/images/shapes/shape-1.png') }});"></div>
+        <div class="help-donate-one__shape-two"
+            style="background-image: url({{ asset('assets/images/shapes/shape-2.png') }});"></div>
+        <div class="container">
+            <div class="sec-title">
+                <h6 class="sec-title__tagline sec-title__tagline--center">
+                    Photo
+                </h6>
+            </div>
+        </div>
+
+        <div class="help-donate-one__slide">
+            @foreach ($categories as $category)
+                <span class="help-donate-one__text help-donate-one__text--one">
+                    {{ $category->title ?? '' }}
+                </span>
+                <img src="{{ asset('assets/images/resources/help-donate-1-1.png') }}" alt="help-donate"
+                    class="help-donate-one__image">
+            @endforeach
+        </div>
+    </section>
+
+
+
+    <section class="donations-one donations-carousel section-space-bottom" style="padding-bottom: 10px;">
+        <div class="container">
+            <div class="donations-one__carousel cleenhearts-owl__carousel cleenhearts-owl__carousel--basic-nav owl-theme owl-carousel"
+                data-owl-options='{
+        "items": 3,
+        "margin": 30,
+        "smartSpeed": 700,
+        "loop":true,
+        "autoplay": 6000,
+        "nav":true,
+        "dots":false,
+        "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+        "responsive":{
+            "0":{
+                "items": 1,
+                "margin": 20
+            },
+            "576":{
+                "items": 1,
+                "margin": 30
+            },
+            "768":{
+                "items": 2,
+                "margin": 30
+            },
+            "992":{
+                "items": 2,
+                "margin": 30
+            },
+            "1200":{
+                "items": 3,
+                "margin": 30
+            }
+        }
+        }'>
+
+                @foreach ($activities as $activity)
+                    @php
+                        $images = explode(',', $activity->images);
+                    @endphp
+                    @foreach ($images as $image)
+                        <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="donation-card @@extraClassName">
+                                <div class="donation-card__bg"
+                                    style="background-image: url({{ asset('assets/images/backgrounds/donation-bg-1-1.png') }});">
+                                </div>
+                                <a href="donation-details-right.html" class="donation-card__image">
+                                    <img data-enlargeable="" src="{{ $image }}" alt=""
+                                        style="width: 100%; height: 200px; background-size: center; object-fit: cover;"
+                                        class="img-enlargeable">
+                                    <div class="donation-card__category">
+                                        Nay Min Thar Empire Co.,Ltd
+                                    </div>
+                                </a>
+                                <div class="donation-card__content" style="padding-top: 0px;">
+                                    <h3 class="donation-card__title">
+                                        <center>
+                                            <a href="javascript::void(0)">
+                                                {{ $activity->description ?? '' }}
+                                            </a>
+                                        </center>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                @endforeach
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                @include('components.whatsapp')
+            </div>
+        </div>
+    </div>
 @endsection
