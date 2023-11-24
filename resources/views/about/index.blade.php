@@ -449,7 +449,7 @@
 
 
 
-    <section class="gove_oya">
+    <section class="gove_oya" style="margin: 180px 0 10px 0;">
         <div class="gove_back" style="background: #005BFA;">
             <div class="gove_box1">
                 <p class="gove_ce">
@@ -463,11 +463,177 @@
                 </p>
             </div>
             <div class="gove_box2">
-                <noscript>
-                    <img src="{{ asset('data/company/1.png') }}" alt="Nay Min Thar Empire Co.,Ltd">
-                </noscript>
                 <img class="lazyloaded" src="{{ asset('data/company/1.png') }}"
                     data-src="{{ asset('data/company/1.png') }}" alt="Nay Min Thar Empire Co.,Ltd">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="events-one section-space">
+        <div class="container">
+            <div class="sec-title">
+                <h6 class="sec-title__tagline sec-title__tagline--center">
+                    Nay Min Thar Empire Co.,Ltd
+                </h6>
+                <h3 class="sec-title__title">
+                    Our update licenses,
+                    <span class="sec-title__title__inner">
+                        Approved by MOL
+                    </span>
+                </h3>
+            </div>
+            <div class="horizontal-accordion">
+
+                <div class="events-one__card card choice">
+                    <div class="card-body">
+                        <div class="events-one__card__top"
+                            style="background-image: url({{ asset('data/company/2.png') }});">
+                            <h4 class="events-one__card__title">
+                                Myanmar Overseas Employment Agencies
+                            </h4>
+                            <span class="events-one__card__icon icon-plus"></span>
+                        </div>
+                        <div class="event-card-two">
+                            <a href="#" class="event-card-two__image">
+                                <img src="{{ asset('data/company/2.png') }}" alt="cleenhearts"
+                                    style="width: 100%; height: 330px; background-size: center; object-fit: contain;">
+                            </a>
+                            <div class="event-card-two__content">
+                                <h4 class="event-card-two__title">
+                                    <a href="">
+                                        Myanmar Overseas Employment Agencies
+                                        <br>
+                                    </a>
+                                </h4>
+                                <div class="event-card-two__text">
+                                    MOEAF
+                                </div>
+                                <div class="event-card-two__meta">
+                                    <h5 class="event-card-two__meta__title">
+                                        CERTIFICATE OF MEMBERSHIP
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="events-one__card card choice expand">
+                    <div class="card-body">
+                        <div class="events-one__card__top"
+                            style="background-image: url({{ asset('data/company/3.png') }});">
+                            <h4 class="events-one__card__title">
+                                Overseas Employment Agency Licence
+                            </h4>
+                            <span class="events-one__card__icon icon-plus"></span>
+                        </div>
+                        <div class="event-card-two">
+                            <a href="#" class="event-card-two__image">
+                                <img src="{{ asset('data/company/3.png') }}" alt="cleenhearts"
+                                    style="width: 100%; height: 330px; background-size: center; object-fit: contain;">
+                            </a>
+                            <div class="event-card-two__content">
+                                <h4 class="event-card-two__title">
+                                    <a href="">
+                                        Overseas Employment Agency Licence
+                                    </a>
+                                </h4>
+                                <div class="event-card-two__text">
+                                    Ministry of Labour
+                                </div>
+                                <div class="event-card-two__meta">
+                                    <h5 class="event-card-two__meta__title">
+                                        Licence No. 335/2023
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="events-one__card card choice">
+                    <div class="card-body">
+                        <div class="events-one__card__top"
+                            style="background-image: url({{ asset('data/company/4.jpg') }});">
+                            <h4 class="events-one__card__title">
+                                Business license
+                            </h4>
+                            <span class="events-one__card__icon icon-plus"></span>
+                        </div>
+                        <div class="event-card-two">
+                            <a href="#" class="event-card-two__image">
+                                <img src="{{ asset('data/company/4.jpg') }}" alt="cleenhearts"
+                                    style="width: 100%; height: 330px; background-size: center; object-fit: contain;">
+                            </a>
+                            <div class="event-card-two__content">
+                                <h4 class="event-card-two__title">
+                                    <a href="">
+                                        Business license
+                                    </a>
+                                </h4>
+                                <div class="event-card-two__text">
+                                    Yangon City Development Committee
+                                </div>
+                                <div class="event-card-two__meta">
+                                    <h5 class="event-card-two__meta__title">
+                                        2022/2023
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <style>
+        .article h2 {
+            font-size: 1.8rem;
+            border-bottom: 3px solid #CCC;
+            line-height: 2.2rem;
+            padding: 0.7rem 0;
+            position: relative;
+        }
+
+        .article h2:after {
+            width: 30%;
+            height: 3px;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            background: #0578B8;
+            content: '';
+        }
+    </style>
+
+
+    <section class="product-page section-space-bottom" style="padding-top: 0px">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="donations-one__row row gutter-y-30">
+
+                    <div class="col-md-12 article">
+                        <h2>
+                            @if (session('key') == 'jp')
+                                Video
+                            @else
+                                Video
+                            @endif
+                        </h2>
+                    </div>
+
+                    <iframe loading="lazy" width="560" height="550" src="{{ asset('data/video/4.mp4') }}"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe>
+
+                </div>
             </div>
         </div>
     </section>

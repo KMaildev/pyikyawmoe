@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('content')
     <section class="page-header @@extraClassName">
-        <div class="page-header__bg" style="background-image: url({{ asset('data/team_banner.jpg') }});"></div>
+        <div class="page-header__bg" style="background-image: url({{ asset('data/company/t1.jpg') }});"></div>
         <div class="container">
             <h2 class="page-header__title">
                 Creative Team Member
@@ -159,7 +159,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/1/1.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/6.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -173,7 +173,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/1/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/7.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -187,7 +187,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/1/3.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/14.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -201,7 +201,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/111.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/16.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -215,7 +215,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/222.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -230,7 +230,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/333.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/4.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -244,7 +244,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/99.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/5.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>
@@ -258,7 +258,7 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/company/photo/10.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
                             <div class="donation-card__category">
                                 Nay Min Thar Co.,Ltd
                             </div>

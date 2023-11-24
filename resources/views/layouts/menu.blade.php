@@ -182,7 +182,7 @@
                                                         </div>
                                                         <div class="demo-one__content">
                                                             <h3 class="demo-one__title">
-                                                                <a href="#">
+                                                                <a href="{{ route('statement') }}">
                                                                     @if (session('key') == 'jp')
                                                                         Vision, Mission & Value
                                                                     @else
@@ -197,16 +197,16 @@
                                                 <div class="col-md-3 col-lg-3">
                                                     <div class="demo-one__card">
                                                         <div class="demo-one__image">
-                                                            <img src="{{ asset('data/authenticity.png') }}"
+                                                            <img src="{{ asset('data/photo/class_activities/6.jpg') }}"
                                                                 alt="" style="height: 140px; width: 100%;">
                                                         </div>
                                                         <div class="demo-one__content">
                                                             <h3 class="demo-one__title">
-                                                                <a href="#">
+                                                                <a href="{{ route('team') }}">
                                                                     @if (session('key') == 'jp')
-                                                                        ミャンマー政府公認、労働大臣より表彰の送り出し機関
+                                                                        私たちのチームメンバーを紹介します
                                                                     @else
-                                                                        Officially recognized by MOL
+                                                                        Meet Our Team Members
                                                                     @endif
                                                                 </a>
                                                             </h3>

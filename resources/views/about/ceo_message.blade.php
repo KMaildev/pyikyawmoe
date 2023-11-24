@@ -4,9 +4,76 @@
         <div class="container">
 
             <div class="row gutter-y-40">
+
+                <div class="col-lg-6">
+                    <div class="volunteer-details__info">
+                        <div class="volunteer-details__info__top">
+                            <div class="volunteer-details__info__left">
+                                <h3 class="volunteer-details__name">
+                                    Managing Director
+                                </h3>
+                                <p class="volunteer-details__designation">
+                                    Miss. ZIN MAR SOE
+                                </p>
+                            </div>
+                        </div>
+                        <p class="volunteer-details__text">
+                            We're not just an employment agency, we're architects of global careers. Whether you're seeking
+                            opportunities or talent, we're here to break boundaries. Our commitment to excellence,
+                            transparent partnerships, and Innovative solutions define us.
+
+                            <br><br>
+                            <i>
+                                Join us at our company, where success knows no imits.
+                            </i>
+
+                            <br><br>
+
+                            <span style="font-weight: bold">
+                                Thank you for considering our company as your partner in this exciting journey.
+                            </span>
+                        </p>
+
+                        <p style="font-size: inherit">
+                            Best Regards!
+                        </p>
+                    </div>
+                </div>
+
                 <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
                     <div class="volunteer-details__image">
-                        <img src="{{ asset('data/md1.jpg') }}" alt="Velma P. Hawkins">
+                        <img src="{{ asset('data/md.jpg') }}" alt="Velma P. Hawkins">
+                        <div class="volunteer-details__social"
+                            style="background-image: url('assets/images/shapes/volunteer-shape-1-1.png');">
+                            <ul class="person-social">
+                                <li>
+                                    <a href="https://facebook.com/"><span class="icon-facebook"></span></a>
+                                </li>
+                                <li>
+                                    <a href="ttps://twitter.com"><span class="icon-twitter"></span></a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com/"><span class="icon-linkedin"></span></a>
+                                </li>
+                                <li>
+                                    <a href="https://youtube.com/"><span class="icon-youtube"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <br><br>
+
+            <div class="row gutter-y-40 py-5">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
+                    <div class="volunteer-details__image">
+                        <img src="{{ asset('data/md2.jpg') }}" alt="Velma P. Hawkins">
                         <div class="volunteer-details__social"
                             style="background-image: url('assets/images/shapes/volunteer-shape-1-1.png');">
                             <ul class="person-social">
@@ -32,31 +99,26 @@
                         <div class="volunteer-details__info__top">
                             <div class="volunteer-details__info__left">
                                 <h3 class="volunteer-details__name">
-                                    CEO’s MESSAGE
+                                    Director
                                 </h3>
                                 <p class="volunteer-details__designation">
-                                    Nay Min Thar Co.,Ltd
+                                    Mr.
                                 </p>
                             </div>
                         </div>
                         <p class="volunteer-details__text">
-                            As the President of our esteemed overseas employment agency, I want to extend a
-                            heartfelt welcome to all aspiring professionals seeking exceptional
-                            opportunities abroad and to our valued clients entrusting us with their talent
-                            acquisition needs.
+                            It is my pleasure to extend a warm welcome to you as the Director Nay Min Thar Empire Myanmar.
+                            In a world where opportunities are boundless, we stand as a guide and companion on your journey
+                            towards global career excellence
                             <br><br>
-                            Our mission is clear: to connect global talent with remarkable employment
-                            prospects while fostering cultural exchange. We are committed to providing
-                            comprehensive and reliable overseas employment services, guiding you every step
-                            of the way to ensure your success.
+                            Our role extends beyond the conventional. We believe in comprehensive support, and our training
+                            programs, including the esteemed Japanese Training Center, are designed to equip you not just
+                            with jobs but with the skills and cultural understanding essential for success in a globalized
+                            world.
                             <br><br>
-                            With integrity, excellence, diversity, and responsiveness as our guiding
-                            principles, we strive to deliver superior services and create a positive impact
-                            on individuals and societies worldwide.
-                            <br><br>
-                            Thank you for trusting us with your aspirations and requirements. Together,
-                            let's achieve new heights in your career or find the exceptional talent your
-                            organization deserves.
+                            <i>
+                                Together, let's embark on a journey where your ambitions know no boundaries.
+                            </i>
                         </p>
 
                         <p style="font-size: inherit">
@@ -66,68 +128,6 @@
                 </div>
             </div>
 
-            <hr>
-
-            <div class="row gutter-y-40">
-                <div class="col-lg-6">
-                    <div class="volunteer-details__info">
-                        <div class="volunteer-details__info__top">
-                            <div class="volunteer-details__info__left">
-                                <h3 class="volunteer-details__name">
-                                    CEO’s MESSAGE
-                                </h3>
-                                <p class="volunteer-details__designation">
-                                    Nay Min Thar Co.,Ltd
-                                </p>
-                            </div>
-                        </div>
-                        <p class="volunteer-details__text">
-                            Dear Job Seekers,
-                            <br><br>
-                            Welcome to our overseas employment agency!
-                            <br><br>
-                            At our agency, our mission is clear to connect talented individuals like you with international
-                            job opportunities. With our deep understanding of global markets, immigration laws, and visa
-                            processes, we can offer a wide range of employment options in various sectors.
-                            <br><br>
-                            Transparency, ethics and open communication are at the heart of our values. We are dedicated to
-                            providing personalized guidance and support to each one of you. Our commitment to excellence
-                            ensures successful placements and long-term relationships with our clients.
-                            <br><br>
-                            Let’s work together to make your dreams of working abroad a reality.
-                        </p>
-
-                        <p style="font-size: inherit">
-                            Best Regards!
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms">
-                    <div class="volunteer-details__image">
-                        <img src="{{ asset('data/company/1/2.jpg') }}" alt="Velma P. Hawkins">
-                        <div class="volunteer-details__social"
-                            style="background-image: url('assets/images/shapes/volunteer-shape-1-1.png');">
-                            <ul class="person-social">
-                                <li>
-                                    <a href="https://facebook.com/"><span class="icon-facebook"></span></a>
-                                </li>
-                                <li>
-                                    <a href="ttps://twitter.com"><span class="icon-twitter"></span></a>
-                                </li>
-                                <li>
-                                    <a href="https://linkedin.com/"><span class="icon-linkedin"></span></a>
-                                </li>
-                                <li>
-                                    <a href="https://youtube.com/"><span class="icon-youtube"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </section>
 @endsection

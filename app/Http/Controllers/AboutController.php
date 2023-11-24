@@ -23,4 +23,9 @@ class AboutController extends Controller
         $teams = Team::all();
         return view('about.team', compact('teams'));
     }
+
+    public function statement()
+    {
+        return view('about.statement');
+    }
 }

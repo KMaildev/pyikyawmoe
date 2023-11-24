@@ -23,6 +23,8 @@ Route::resource('employer', EmployerController::class);
 Route::resource('about', AboutController::class);
 Route::get('/ceo_message', [AboutController::class, 'ceo_message'])->name('ceo_message');
 Route::get('/team', [AboutController::class, 'team'])->name('team');
+Route::get('/statement', [AboutController::class, 'statement'])->name('statement');
+
 
 
 Route::resource('specified_skilled', SpecifiedSkilledWorkerController::class);

@@ -1,5 +1,59 @@
 @extends('layouts.main')
 @section('content')
+    <style>
+        .article h2 {
+            font-size: 1.8rem;
+            border-bottom: 3px solid #CCC;
+            line-height: 2.2rem;
+            padding: 0.7rem 0;
+            position: relative;
+        }
+
+        .article h2:after {
+            width: 30%;
+            height: 3px;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            background: #0578B8;
+            content: '';
+        }
+    </style>
+
+
+    <section class="product-page section-space-bottom" style="padding-top: 0px">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="donations-one__row row gutter-y-30">
+
+                    <div class="col-md-12 article">
+                        <h2>
+                            @if (session('key') == 'jp')
+                                Video
+                            @else
+                                Video
+                            @endif
+                        </h2>
+                    </div>
+
+                    <div class="col-md-6">
+                        <iframe loading="lazy" width="560" height="400" src="{{ asset('data/video/4.mp4') }}"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen=""></iframe>
+                    </div>
+
+                    <div class="col-md-6">
+                        <iframe loading="lazy" width="560" height="400" src="{{ asset('data/video/3.mp4') }}"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen=""></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="inspiring-one section-space"
         style="background-image: url({{ asset('assets/images/backgrounds/inspiring-bg-1-1.png') }});">
         <div class="container">
