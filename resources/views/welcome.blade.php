@@ -192,7 +192,7 @@
                     <div class="sec-title">
                         <h6 class="sec-title__tagline @@extraClassName">WHO ARE WE</h6>
                         <h3 class="sec-title__title">
-                            Nay Min Thar Co.,Ltd
+                            Nay Min Thar Empire Co.,Ltd
                             <span class="sec-title__title__inner">
                                 Company Limited
                             </span>
@@ -966,7 +966,7 @@
                                 </p>
                                 <p class="bf_cc_txt">
                                     <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">At Nay Min Thar Co.,Ltd, we conduct the
+                                        <font style="vertical-align: inherit;">At Nay Min Thar Empire Co.,Ltd, we conduct the
                                             Cattell CFIT
                                             intelligence test, Kraepelin test, four arithmetic operations, and sticker
                                             pasting test as part of our preliminary training. </font>

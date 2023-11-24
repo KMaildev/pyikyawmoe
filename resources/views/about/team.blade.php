@@ -159,9 +159,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/6.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/6.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -173,9 +173,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/7.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/7.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -187,9 +187,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/14.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/14.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -201,9 +201,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/16.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/16.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -215,9 +215,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/2.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -230,9 +230,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/4.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/4.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -244,9 +244,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/class_activities/5.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/class_activities/5.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>
@@ -258,9 +258,9 @@
                             style="background-image: url('assets/images/backgrounds/donation-bg-1-1.png');">
                         </div>
                         <a href="javascript::void(0)" class="donation-card__image">
-                            <img src="{{ asset('data/photo/2.jpg') }}" alt="Nay Min Thar Co.,Ltd">
+                            <img src="{{ asset('data/photo/2.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd">
                             <div class="donation-card__category">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </div>
                         </a>
                     </div>

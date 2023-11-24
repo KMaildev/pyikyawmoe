@@ -8,14 +8,14 @@
                         <div class="sec-title">
                             @if (session('key') == 'jp')
                                 <h6 class="sec-title__tagline @@extraClassName">
-                                    Nay Min Thar Co.,Ltd
+                                    Nay Min Thar Empire Co.,Ltd
                                 </h6>
                                 <h3 class="sec-title__title">
                                     私たちの目的
                                 </h3>
                             @else
                                 <h6 class="sec-title__tagline @@extraClassName">
-                                    Nay Min Thar Co.,Ltd
+                                    Nay Min Thar Empire Co.,Ltd
                                 </h6>
                                 <h3 class="sec-title__title">
                                     Our Purpose
@@ -58,7 +58,7 @@
                     <div class="sec-title">
                         <h6 class="sec-title__tagline @@extraClassName">WHO ARE WE</h6>
                         <h3 class="sec-title__title">
-                            Nay Min Thar Co.,Ltd
+                            Nay Min Thar Empire Co.,Ltd
                             <span class="sec-title__title__inner">
                                 Company Limited
                             </span>

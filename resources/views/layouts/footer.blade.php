@@ -6,10 +6,10 @@
                 <div class="col-md-12 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
                     <div class="footer-widget footer-widget--about">
                         <a href="{{ route('home') }}" class="footer-widget__logo">
-                            <img src="{{ asset('data/logo.png') }}" width="159" alt="Cleenhearts HTML Template">
+                            <img src="{{ asset('data/logo.jpg') }}" width="159" alt="Nay Min Thar Empire Co.,Ltd Template">
                         </a>
                         <p class="footer-widget__about-text">
-                            Nay Min Thar Co.,Ltd
+                            Nay Min Thar Empire Co.,Ltd
                             <br>
                             Overseas Employment Agency
                         </p>
@@ -24,22 +24,29 @@
                             <li>
                                 <span class="icon-location"></span>
                                 <address>
-                                    No.5/11, Room G-1 Byine Yae Owe Sin Street, Ywar Ma Quarter, Tamwe Township, Yangon,
-                                    Myanmar
+                                    No. 179/B, Sein Ya Ti Street, Yadanar Kyun Ave, North Okkalapa Township, Yangon
+                                    Region, Myanmar, Postal Code: 11031
                                 </address>
                             </li>
 
                             <li>
                                 <span class="icon-phone"></span>
-                                <a href="tel:09 791 468 884">
-                                    09 791 468 884, 09 982 567 521
+                                <a href="tel:+959-967 576 591">
+                                    +959-967 576 591
                                 </a>
                             </li>
 
                             <li>
                                 <span class="icon-envelope"></span>
-                                <a href="mailto:pyikyawmoe6@gmail.com">
-                                    pyikyawmoe6@gmail.com
+                                <a href="mailto:info@naymintharmyanmar.com,">
+                                    info@naymintharmyanmar.com
+                                </a>
+                            </li>
+
+                            <li>
+                                <span class="icon-envelope"></span>
+                                <a href="mailto:naymintharem@gmail.com">
+                                    naymintharem@gmail.com
                                 </a>
                             </li>
                         </ul>
@@ -48,7 +55,7 @@
 
                 <div class="col-md-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                     <div class="footer-widget footer-widget--links">
-                        <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
+                        <h2 class="footer-widget__title">Quick Links</h2>
                         <ul class="list-unstyled footer-widget__links">
                             <li>
                                 <a href="{{ route('about.index') }}">
@@ -91,55 +98,24 @@
 
                 <div class="col-md-4 col-xl-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                     <div class="footer-widget footer-widget--gallery">
-                        <h2 class="footer-widget__title">Our Gallery</h2>
-                        <div class="footer-widget__gallery">
+                        <h2 class="footer-widget__title">
+                            Facebook
+                        </h2>
 
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/1.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous"
+                            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=210045094312905&autoLogAppEvents=1"
+                            nonce="PosYNXjc"></script>
 
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/2.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/3.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/4.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/5.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/6.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/7.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/8.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
-                            <a href="javascript::void(0)" class="footer-widget__gallery__link">
-                                <img src="{{ asset('data/footer/9.jpg') }}" alt="footer-widget-gallery">
-                                <span class="footer-widget__gallery__icon icon-plus"></span>
-                            </a>
-
+                        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100063909290168"
+                            data-tabs="timeline" data-width="" data-height="200" data-small-header="false"
+                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/profile.php?id=100063909290168"
+                                class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/profile.php?id=100063909290168">Facebook</a>
+                            </blockquote>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -160,7 +136,8 @@
         <div class="container">
             <div class="main-footer__bottom__inner">
                 <p class="main-footer__copyright">
-                    &copy; Copyright <span class="dynamic-year"></span> Nay Min Thar Co.,Ltd. All Rights Reserved.
+                    &copy; Copyright <span class="dynamic-year"></span> Nay Min Thar Empire Co.,Ltd. All Rights
+                    Reserved.
                 </p>
             </div>
         </div>

@@ -49,7 +49,7 @@
                     <div class="sec-title">
                         @if (session('key') == 'jp')
                             <h6 class="sec-title__tagline sec-title__tagline--center">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </h6>
                             <center>
                                 <h3 class="sec-title__title">
@@ -93,7 +93,7 @@
                             </div>
                         @else
                             <h6 class="sec-title__tagline sec-title__tagline--center">
-                                Nay Min Thar Co.,Ltd
+                                Nay Min Thar Empire Co.,Ltd
                             </h6>
                             <center>
                                 <h3 class="sec-title__title">

@@ -339,7 +339,7 @@
                         <img src="{{ asset('data/counrty.png') }}" alt="" style="width: 100%;">
                         <br><br>
                         <h4 class="animate__animated animate__bounce animate__rotateInDownLeft">
-                            Nay Min Thar Co.,Ltd
+                            Nay Min Thar Empire Co.,Ltd
                         </h4>
 
                         <p style="font-size: 15px; color: black; text-align: justify" class="appear-animate"
@@ -384,7 +384,7 @@
 
                             <p style="font-size: 15px; color: black; text-align: justify" class="appear-animate"
                                 data-animation-delay="100" data-animation-name="fadeInUpShorter">
-                                Nay Min Thar Co.,Ltd の運営は専門家チームによって管理されています。
+                                Nay Min Thar Empire Co.,Ltd の運営は専門家チームによって管理されています。
                             </p>
                         @else
                             <h4 class="animate__animated animate__bounce animate__rotateInDownLeft">
@@ -393,7 +393,7 @@
 
                             <p style="font-size: 15px; color: black; text-align: justify" class="appear-animate"
                                 data-animation-delay="100" data-animation-name="fadeInUpShorter">
-                                Nay Min Thar Co.,Ltd’s operations are managed by a team of professionals.
+                                Nay Min Thar Empire Co.,Ltd’s operations are managed by a team of professionals.
                             </p>
                         @endif
 

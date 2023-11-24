@@ -8,11 +8,12 @@
         Nay Min Thar Empire Co.,Ltd (Overseas Employment Agency) - @yield('title')
     </title>
 
-    <meta name="keywords" content="Nay Min Thar Co.,Ltd" />
-    <meta name="author" content="Nay Min Thar Co.,Ltd" />
-    <meta name="robots" content="Nay Min Thar Co.,Ltd" />
-    <meta name="description" content="Nay Min Thar Co.,Ltd" />
-    <link rel="shortcut icon" href="{{ asset('data/logo.png') }}" />
+    <meta name="keywords" content="Nay Min Thar Empire Co.,Ltd" />
+    <meta name="author" content="Nay Min Thar Empire Co.,Ltd" />
+    <meta name="robots" content="Nay Min Thar Empire Co.,Ltd" />
+    <meta name="description" content="Nay Min Thar Empire Co.,Ltd" />
+    <link rel="shortcut icon" href="{{ asset('data/logo.jpg') }}" />
+    <meta property="og:image" content="{{ asset('data/logo.jpg') }}" />
 
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/bootstrap/css/bootstrap.min.css') }}" />
@@ -31,9 +32,6 @@
     <link rel="stylesheet" href="{{ asset('assets/vendors/owl-carousel/css/owl.theme.default.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/cleenhearts.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-
-
 
     {{-- Unity  --}}
 
@@ -77,7 +75,7 @@
 
             <div class="logo-box">
                 <a href="{{ route('home') }}" aria-label="logo image">
-                    <img src="{{ asset('data/logo.png') }}" width="155" alt="" />
+                    <img src="{{ asset('data/logo.jpg') }}" width="155" alt="" />
                 </a>
             </div>
 
@@ -86,18 +84,20 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:pyikyawmoe6@gmail.com,">pyikyawmoe6@gmail.com,</a>
+                    <a href="mailto:info@naymintharmyanmar.com,">
+                        info@naymintharmyanmar.com
+                    </a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:09 791 468 884">
-                        09 791 468 884, 09 982 567 521
+                    <a href="tel:+959-967 576 591">
+                        +959-967 576 591
                     </a>
                 </li>
             </ul>
 
             <div class="mobile-nav__social">
-                <a href="https://facebook.com/">
+                <a href="https://www.facebook.com/profile.php?id=100063909290168&ref=embed_page">
                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
                     <span class="sr-only">Facebook</span>
                 </a>
@@ -124,7 +124,7 @@
             <span class="sidebar-one__close sidebar-btn__toggler"><i class="fa fa-times"></i></span>
             <div class="sidebar-one__logo sidebar-one__item">
                 <a href="{{ route('home') }}" aria-label="logo image">
-                    <img src="{{ asset('data/logo.png') }}" width="155" alt="logo-dark" /></a>
+                    <img src="{{ asset('data/logo.jpg') }}" width="155" alt="logo-dark" /></a>
             </div>
 
             <div class="sidebar-one__information sidebar-one__item">
@@ -134,48 +134,29 @@
                         <span class="sidebar-one__information__icon icon-location"></span>
                         <address class="sidebar-one__information__address">
                             <p class="sidebar-one__information__text">
-                                No.5/11, Room G-1 Byine Yae Owe Sin Street, Ywar Ma Quarter, Tamwe Township, Yangon,
-                                Myanmar
+                                No. 179/B, Sein Ya Ti Street, Yadanar Kyun Ave, North Okkalapa Township, Yangon Region,
+                                Myanmar, Postal Code: 11031
                             </p>
                         </address>
                     </li>
                     <li>
                         <i class="sidebar-one__information__icon icon-envelope"></i>
                         <p class="sidebar-one__information__text">
-                            <a href="mailto:pyikyawmoe6@gmail.com,">
-                                pyikyawmoe6@gmail.com,
+                            <a href="mailto:info@naymintharmyanmar.com">
+                                info@naymintharmyanmar.com
                             </a>
                         </p>
                     </li>
                     <li>
                         <span class="sidebar-one__information__icon icon-phone"></span>
                         <p class="sidebar-one__information__text">
-                            <a href="tel:09 791 468 884">
-                                09 791 468 884, 09 982 567 521
+                            <a href="tel:+959-967 576 591">
+                                +959-967 576 591
                             </a>
                         </p>
                     </li>
                 </ul>
             </div>
-            <div class="sidebar-one__socila social-link sidebar-one__item">
-                <a href="https://facebook.com/">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://twitter.com/">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://linkedin.com/" aria-hidden="true">
-                    <i class="fab fa-linkedin-in"></i>
-                    <span class="sr-only">Linkedin</span>
-                </a>
-                <a href="https://youtube.com/" aria-hidden="true">
-                    <i class="fab fa-youtube"></i>
-                    <span class="sr-only">Youtube</span>
-                </a>
-            </div>
-
         </div>
     </aside>
 

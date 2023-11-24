@@ -20,22 +20,25 @@
                 <h6 style="font-size: 12px;padding-left:20px;">
                     ミャンマー人材育成日本語学校
                     <p style="font-size: 12px;">
-                        Myanmar Government License No.(2/2023)
+                        Myanmar Government License No.(335/2023)
                     </p>
                 </h6>
 
                 {{-- two__logo --}}
                 <div class="topbar-">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('data/logo/logo1.png') }}" alt="Cleenhearts HTML" style="width: 400px;">
+                        <img src="{{ asset('data/logo/logo1.png') }}" alt="Nay Min Thar Empire Co.,Ltd"
+                            style="width: 400px;">
                     </a>
 
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('data/logo/logo2.png') }}" alt="Cleenhearts HTML" style="width: 80px;">
+                        <img src="{{ asset('data/logo/logo2.png') }}" alt="Nay Min Thar Empire Co.,Ltd"
+                            style="width: 80px;">
                     </a>
 
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('data/logo/logo5.png') }}" alt="Cleenhearts HTML" style="width: 70px;">
+                        <img src="{{ asset('data/logo/logo5.png') }}" alt="Nay Min Thar Empire Co.,Ltd"
+                            style="width: 70px;">
                     </a>
                 </div>
             </div>
@@ -56,17 +59,18 @@
                             </span>
                         </a>
 
-                        <a href="" class="main-header__cart__link" style="background-color: yellow;">
+                        <a href="{{ route('school.index') }}" class="main-header__cart__link"
+                            style="background-color: yellow;">
                             <span class="btn" style="font-size: 12px; color:black;">
                                 @if (session('key') == 'jp')
-                                    外国人雇用完全ガイド
+                                    YA HCU KHAM
                                 @else
-                                    foreign employment
+                                    YA HCU KHAM
                                 @endif
                             </span>
                         </a>
 
-                        <a href="" class="main-header__cart__link" style="background-color: blue;">
+                        <a href="javascript::void(0)" class="main-header__cart__link" style="background-color: blue;">
                             <span class="btn" style="font-size: 12px; color:white;">
                                 @if (session('key') == 'jp')
                                     会社概要
@@ -97,7 +101,7 @@
             <div class="main-header-two__left">
                 <div class="main-header-two__logo">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/images/logo-dark.png') }}" alt="Cleenhearts HTML" width="159">
+                        <img src="{{ asset('data/logo.jpg') }}" alt="Nay Min Thar Empire Co.,Ltd" width="159">
                     </a>
                 </div>
                 <button type="button" class="main-header-two__sidebar-btn sidebar-btn__toggler">
@@ -120,7 +124,7 @@
                     </li>
 
                     <li class="dropdown megamenu">
-                        <a href="index.html">
+                        <a href="javascript::void(0)">
                             @if (session('key') == 'jp')
                                 私たちについて
                             @else
@@ -266,7 +270,7 @@
 
 
                     <li class="dropdown megamenu">
-                        <a href="index.html">
+                        <a href="javascript::void(0)">
                             @if (session('key') == 'jp')
                                 人材サービス
                             @else
@@ -382,11 +386,16 @@
                     <span></span>
                     <span></span>
                 </div>
-                <a href="donate.html" class="cleenhearts-btn cleenhearts-btn--border-base main-header__btn">
+                <a href="mailto:info@naymintharmyanmar.com"
+                    class="cleenhearts-btn cleenhearts-btn--border-base main-header__btn">
                     <div class="cleenhearts-btn__icon-box">
-                        <div class="cleenhearts-btn__icon-box__inner"><span class="icon-donate"></span></div>
+                        <div class="cleenhearts-btn__icon-box__inner">
+                            <span class="fa fa-envelope"></span>
+                        </div>
                     </div>
-                    <span class="cleenhearts-btn__text">donate now</span>
+                    <span class="cleenhearts-btn__text">
+                        Send Mail
+                    </span>
                 </a>
             </div>
         </div>

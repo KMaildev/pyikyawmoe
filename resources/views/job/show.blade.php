@@ -127,7 +127,7 @@
                                 </p>
                                 <p class="bf_cc_txt">
                                     <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">At Nay Min Thar Co.,Ltd, we conduct the
+                                        <font style="vertical-align: inherit;">At Nay Min Thar Empire Co.,Ltd, we conduct the
                                             Cattell CFIT
                                             intelligence test, Kraepelin test, four arithmetic operations, and sticker
                                             pasting test as part of our preliminary training. </font>
