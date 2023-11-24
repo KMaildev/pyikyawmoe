@@ -9,7 +9,8 @@ class AboutController extends Controller
 {
     public function index()
     {
-        return view('about.index');
+        $teams = Team::all();
+        return view('about.index', compact('teams'));
     }
 
     public function ceo_message()

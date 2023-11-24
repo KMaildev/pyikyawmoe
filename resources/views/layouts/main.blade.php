@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nay Min Thar Co.,Ltd (Overseas Employment Agency) - @yield('title')</title>
+    <title>
+        Nay Min Thar Empire Co.,Ltd (Overseas Employment Agency) - @yield('title')
+    </title>
 
     <meta name="keywords" content="Nay Min Thar Co.,Ltd" />
     <meta name="author" content="Nay Min Thar Co.,Ltd" />
