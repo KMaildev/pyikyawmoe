@@ -1,6 +1,6 @@
 <section class="slider_area">
     <div id="zoom-1"
-        data-zs-src='["{{ asset('data/slider/0.jpg') }}", "{{ asset('data/slider/1.jpg') }}","{{ asset('data/slider/2.jpg') }}", "{{ asset('data/slider/3.jpg') }}"]'
+        data-zs-src='["{{ asset('data/slider/0.jpg') }}", "{{ asset('data/slider/1.jpg') }}","{{ asset('data/slider/2.jpg') }}", "{{ asset('data/slider/3.jpg') }}", "{{ asset('data/photo/Interview_Session/12.jpg') }}"]'
         data-zs-speed="4000" data-zs-switchSpeed="400" data-zs-interval="6000" data-zs-overlay="dots"
         data-zs-bullets="false">
 
@@ -18,27 +18,37 @@
                 </p>
                 <div class="mu_cvbtn">
                     <div>
-                        <a href="#">
+                        <a href="{{ route('contact.index') }}">
                             @if (session('key') == 'jp')
                                 お問い合わせ・資料請求
                             @else
-                                Inquiries/Request for materials
+                                Inquiries
                             @endif
                         </a>
                     </div>
 
                     <div>
-                        <a href="#">
+                        <a href="{{ route('technical_intern.index') }}" style="font-size: 15px;">
                             @if (session('key') == 'jp')
                                 技能実習生
                             @else
-                                Technical Intern Trainee
+                                Technical Intern Training
                             @endif
                         </a>
                     </div>
 
                     <div>
-                        <a href="#">
+                        <a href="{{ route('specified_skilled.index') }}">
+                            @if (session('key') == 'jp')
+                                特定技能外国人
+                            @else
+                                Specified Skilled Worker
+                            @endif
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="{{ route('statement') }}">
                             @if (session('key') == 'jp')
                                 Vision, Mission & Value
                             @else
@@ -48,7 +58,7 @@
                     </div>
 
                     <div>
-                        <a href="pages/10616/index.html">
+                        <a href="{{ route('school.index') }}">
                             @if (session('key') == 'jp')
                                 Ya Hcu Kham Japanese language school.
                             @else
@@ -56,22 +66,24 @@
                             @endif
                         </a>
                     </div>
+
+
                     <div>
-                        <a href="pages/492/index.html">
+                        <a href="{{ route('cv.index') }}">
                             @if (session('key') == 'jp')
-                                School Activities
+                                仕事に応募する
                             @else
-                                School Activities
+                                Apply for job
                             @endif
                         </a>
                     </div>
+
                     <div>
-                        <a href="pages/21522/index.html">
+                        <a href="{{ route('employer.index') }}">
                             @if (session('key') == 'jp')
-                                ミャンマー政府公認、労働大臣より表彰の送り出し機関
+                                雇用主フォーム
                             @else
-                                Officially recognized by the Myanmar government and awarded by the Minister
-                                of Labor
+                                Employers Form
                             @endif
                         </a>
                     </div>

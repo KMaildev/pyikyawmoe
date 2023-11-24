@@ -36,6 +36,7 @@
 
 
     {{-- Unity  --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/themes/mu/css/top_new.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/themes/mu/css/slider.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/themes/mu/css/zoomslider.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/themes/mu/css/style.css') }}">

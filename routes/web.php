@@ -8,6 +8,7 @@ use App\Http\Controllers\EmployerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\SchoolController;
 use App\Http\Controllers\SpecifiedSkilledWorkerController;
 use App\Http\Controllers\TechnicalInternController;
@@ -31,7 +32,7 @@ Route::resource('specified_skilled', SpecifiedSkilledWorkerController::class);
 Route::resource('technical_intern', TechnicalInternController::class);
 
 Route::resource('school', SchoolController::class);
-
+Route::resource('news', NewsController::class);
 
 
 Route::get('/en', [LanguageController::class, 'en'])->name('en');

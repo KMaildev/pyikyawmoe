@@ -45,7 +45,8 @@
                 <div class="topbar-">
                     <div class="main-header__cart" style="margin-right: 0px;">
 
-                        <a href="" class="main-header__cart__link" style="background-color: red;">
+                        <a href="{{ route('news.index') }}" class="main-header__cart__link"
+                            style="background-color: red;">
                             <span class="btn" style="font-size: 12px; color:white;">
                                 @if (session('key') == 'jp')
                                     新着情報
@@ -85,7 +86,6 @@
         </div>
     </div>
 </div>
-
 
 
 
