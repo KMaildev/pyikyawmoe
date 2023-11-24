@@ -20,6 +20,18 @@ class HomeController extends Controller
         $technical_intern_trainings = TechnicalInternTraining::all();
         $specific_skills = SpecificSkill::all();
 
-        return view('welcome', compact('activities', 'teams', 'news', 'technical_intern_trainings', 'specific_skills'));
+
+        $imageDirectory = public_path('data/photo/OurAchievements/');
+        $achievements = [];
+        if (is_dir($imageDirectory)) {
+            $imageFiles = scandir($imageDirectory);
+            foreach ($imageFiles as $file) {
+                if (is_file($imageDirectory . '/' . $file)) {
+                    $achievements[] = $file;
+                }
+            }
+        }
+
+        return view('welcome', compact('activities', 'teams', 'news', 'technical_intern_trainings', 'specific_skills', 'achievements'));
     }
 }

@@ -162,7 +162,13 @@
                                     style="width: 100%; height: 200px; background-size: center; object-fit: cover;"
                                     class="img-enlargeable">
                                 <p style="text-align: center; color: black;">
-                                    {{ $activity->title ?? '' }}
+                                    YA HCU KHAM
+                                    <br>
+                                    @if (session('key') == 'jp')
+                                        {{ $activity->title_jp ?? '' }}
+                                    @else
+                                        {{ $activity->title_en ?? '' }}
+                                    @endif
                                 </p>
                             </div>
                         </div>

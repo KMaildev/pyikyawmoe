@@ -921,6 +921,51 @@
 
 
 
+    <section class="product-page section-space-bottom" style="padding-top: 0px">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="donations-one__row row gutter-y-30">
+
+                    <div class="col-md-12 article">
+                        <h2>
+                            @if (session('key') == 'jp')
+                                私たちの実績
+                            @else
+                                Our Achievements
+                            @endif
+                        </h2>
+                    </div>
+
+
+                    @foreach ($achievements as $achievement)
+                        <div class="col-md-6 col-xl-4">
+                            <div class="gallery-one__card" style="box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;">
+                                <img src="{{ asset('data/photo/OurAchievements/' . $achievement) }}" alt=""
+                                    style="width: 100%; height: 250px; object-position: top; background-size: top; object-fit: cover;">
+                                <div class="gallery-one__card__hover">
+                                    <a href="{{ asset('data/photo/OurAchievements/' . $achievement) }}"
+                                        class="img-popup">
+                                        <span class="gallery-one__card__icon"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
 
 
     <section class="reason">
@@ -966,7 +1011,8 @@
                                 </p>
                                 <p class="bf_cc_txt">
                                     <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">At Nay Min Thar Empire Co.,Ltd, we conduct the
+                                        <font style="vertical-align: inherit;">At Nay Min Thar Empire Co.,Ltd, we conduct
+                                            the
                                             Cattell CFIT
                                             intelligence test, Kraepelin test, four arithmetic operations, and sticker
                                             pasting test as part of our preliminary training. </font>
@@ -1209,7 +1255,6 @@
             </div>
         </div>
     </section>
-
 
 
     <div class="container">
